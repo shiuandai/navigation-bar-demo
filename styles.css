@@ -1,0 +1,61 @@
+@media (prefers-reduced-motion:no-preference) {
+    *{
+        scroll-behavior: smooth;
+    }
+}
+
+#nav-header{
+    font-size: 22px;
+}
+
+body{
+    font-size: 0.96em;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #4d4e53;
+}
+
+header{
+    font-size: 1.8em;
+    margin: 25px 0px;
+}
+
+#navbar{
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    overflow: auto;
+  }
+
+
+
+
+nav>ul>li{
+    border-bottom: 1px solid #555;
+    
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li a {
+    display: block;
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+  
+.main-ul>li{
+    margin: 20px 0;
+}
+
+#main-doc{
+    margin-left:20%;
+    padding:10px 45px;
+    height:1000px;
+}
+
